@@ -25,19 +25,25 @@ body{
 
 footer{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    
     background-color: #0d1240;
     margin-top: 10px;
 
 }
 
+.texto_rodape h1{
+    font-family: sans-serif;
+    color:#fff;
+    margin-top: 20px;
+    text-align: center;
+}
+
 .grupo_social{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -48,7 +54,7 @@ footer{
 }
 
 .rede_social img{
-    width: 100px;
+    width: 80px;
 }
 
 
