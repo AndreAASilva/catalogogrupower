@@ -63,4 +63,7 @@ footer{
     transform: scale(1.1);
 }
 
+.rede_social:active img{
+    transform: scale(0.9);
+}
 
